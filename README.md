@@ -1,4 +1,6 @@
-database_project
+GTRental
 ================
 
-CS 4400 class project
+A Java based academic project to improve the understanding of Database systems.
+
+Simulates a complete car rental application.
