@@ -19,11 +19,11 @@ import java.util.Properties;
 public class MyDBConnector {
 	public Connection openConnection(){
 		Properties properties = new Properties();
-		properties.put("user", "root");
-		properties.put("password", "fire");
+		properties.put("user", "<user_name>");
+		properties.put("password", "<password>");
 		properties.put("characterEncoding", "ISO-8859-1");
 		properties.put("useUnicode", "true");
-		String url = "jdbc:mysql://127.0.0.1:3306/dbproject";
+		String url = "jdbc:mysql://<url:port>/<database_name>";
 
 		Connection c = null;
 		try {
